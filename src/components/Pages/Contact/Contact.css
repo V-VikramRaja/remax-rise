@@ -1,0 +1,130 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-form-top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.contact-form-top-container > h1 {
+  color: #023da6;
+}
+
+.contact-form-bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 0;
+}
+
+.contact-form-leftPart {
+  margin: 2rem;
+}
+.contact-form-rightPart {
+  margin: 5rem;
+}
+
+.contact-form-leftPart {
+  background-color: #a1b7de;
+  border-radius: 25px;
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+}
+
+.contact-form-rightPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.contact_form_main {
+  white-space: pre-line;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.contact-form-contents {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 1rem 0;
+}
+
+.contact-from-input {
+  width: 80%;
+  border: none;
+  height: 2rem;
+}
+
+.contact-from-input-message {
+  padding-bottom: 5em;
+}
+
+.contact-from-input::placeholder {
+  color: #023da6;
+  font-size: 0.8rem;
+  padding: 0 2rem;
+}
+
+.contact-label {
+  font-size: 1rem;
+  margin: 0.8rem 0;
+  font-weight: bold;
+}
+
+.contact-form-submit-btn {
+  margin-top: 2rem;
+  width: 175px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  background-color: #023da6;
+}
+
+.contact-email-sent-para {
+  color: #023da6;
+  font-weight: Bold;
+  font-size: 0.9rem;
+}
+
+.contact-form-submit-para {
+  display: none;
+}
+
+@media screen and (max-width: 620px) {
+  .contact-form-leftPart {
+    width: 70vw;
+  }
+  .contact-from-input {
+    width: 100%;
+    border: none;
+    height: 2rem;
+  }
+}

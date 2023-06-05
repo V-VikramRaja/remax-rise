@@ -1,0 +1,51 @@
+.prop-showcase-card {
+  box-shadow: 0px 0px 11px -3px rgba(0, 0, 0, 0.4);
+  width: 250px;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.prop-showcase-card-img {
+  width: 250px;
+  height: 170px;
+}
+
+.prop-showcase-card-mid-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prop-showcase-card-bottom-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prop-showcase-card-mid-container > p:nth-child(1) {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #023da6;
+}
+.prop-showcase-card-mid-container > p:nth-child(2) {
+  font-size: 12px;
+}
+
+.dt-link {
+  text-decoration: none;
+}
+
+.prop-showcase-card-bottom-container > p:nth-child(1) {
+  font-size: 0.6rem;
+  font-weight: bold;
+  width: 8rem;
+}
+.prop-showcase-card-bottom-container > p:nth-child(2) {
+  font-size: 12px;
+  font-weight: bold;
+}
